@@ -14,7 +14,7 @@ html,
 body {
   height: 100%;
   overflow-x: hidden;
-  background-color: #231f20;
+  background-color: #231f20 !important;
 }
 canvas {
   display: block;
