@@ -1,78 +1,82 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
+*
+{
+    background-color: #231f20;
 }
-html, body {
-    height: 100%;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body {
+  height: 100%;
 }
 canvas {
-    display: block;
+  display: block;
 }
 body {
-    margin: 0;
+  margin: 0;
 }
 #unity-container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 #unity-canvas {
-    width: 100%;
-    height: 100%;
-    background: #231F20;
+  width: 100%;
+  height: 100%;
+  background: #231f20;
 }
 #loading-cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  float: inline-start;
 }
 #unity-loading-bar {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #unity-logo {
-    text-align: center;
+  text-align: center;
 }
 #unity-logo img {
-    max-width: 80%;
+  max-width: 80%;
 }
 #unity-progress-bar-empty {
-    width: 80%;
-    height: 24px;
-    margin: 10px 20px 20px 10px;
-    text-align: left;
-    border: 1px solid white;
-    padding: 2px;
+  width: 80%;
+  height: 24px;
+  margin: 10px 20px 20px 10px;
+  text-align: left;
+  border: 1px solid white;
+  padding: 2px;
 }
 #unity-progress-bar-full {
-    width: 0%;
-    height: 100%;
-    background: white;
+  width: 0%;
+  height: 100%;
+  background: white;
 }
 .light #unity-progress-bar-empty {
-    border-color: black;
+  border-color: black;
 }
 .light #unity-progress-bar-full {
-    background: black;
+  background: black;
 }
 
 #unity-fullscreen-button {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    width: 38px;
-    height: 38px;
-    background: url('fullscreen-button.png') no-repeat center;
-    background-size: contain;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 38px;
+  height: 38px;
+  background: url("fullscreen-button.png") no-repeat center;
+  background-size: contain;
 }
 
 .spinner,
@@ -102,4 +106,50 @@ body {
   }
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
 
+  padding: 20px;
+
+  background-color: #231f20;
+  display: none;
+}
+
+.content {
+  width: 100%;
+  background-color: #231f20;
+}
+
+.unity {
+  width: 640px;
+  height: 360px;
+  margin: 0 auto;
+}
+
+.device {
+  width: 100%;
+  background-color: #231f20;
+
+  display: none;
+}
+
+.text {
+  color: #231f20;
+  font-family: sans-serif;
+}
+
+h2.text {
+}
+
+h1.text {
+}
+
+span#bold
+{
+    font-weight: 500;
+}
