@@ -14,7 +14,8 @@
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="theme-color" content="#ffffff" />
   <link rel="stylesheet" href="TemplateData/style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 
 <body class="dark">
@@ -36,49 +37,52 @@
           <div class="col-lg-10 col-md-8 mx-auto">
             <h3 class="fw-light text-light" style="text-align: center;">Rules</h3>
             <p class="lead text-muted">
-            This is a 2 player card game.
-            <br>
-            Each round both players draw a card.
-            <br>
-            Whoever has the lowest number has to smoke and they have to smoke that many hits!
-            <br>
-            The player who smokes get those hits added onto their score!
-            <br>
-            To make the game more managable we decided to make the maximum hits 5, so if for example you get a 7 then 2 of your 5 hits must be BIG!
-            <br>
-            If you get a 9 then 4 of your 5 hits are BIG!
-            <br>
-            If you are ever unsure who is smoking how many hits, you will see it displayed under the player names.
-            <br>
-            There are some special cards...
-            <br>
-            These are the Jack, Queen, and King.
-            <br>
-            When played against ordinary numbers the Special cards always take the points and NEVER smoke!
-            <br>
-            <b>Jack</b> - Play T.A.X.I with the word J.A.C.K. Jack steals points.
-            <br>
-            <b>Queen</b> - If the suits match she smokes, if the don't then the other player smokes. Queen steals points.
-            <br>
-            <b>King</b> - The other player smokes and their small and bit hits are swapped around :O. King steals points.
-            <br>
-            King beats Jack. Queen beats Jack.
-            <br>
-            King vs Queen:
-            <br>
-            If the suits match then queen has small and big hits reversed for the rest of the game.
-            <br>
-            If the suits don't match then king has small and big hits reversed for the rest of the game.
-  
+              This is a 2 player card game.
+              <br>
+              Each round both players draw a card.
+              <br>
+              Whoever has the lowest number has to smoke and they have to smoke that many hits!
+              <br>
+              The player who smokes get those hits added onto their score!
+              <br>
+              To make the game more managable we decided to make the maximum hits 5, so if for example you get a 7 then
+              2 of your 5 hits must be BIG!
+              <br>
+              If you get a 9 then 4 of your 5 hits are BIG!
+              <br>
+              If you are ever unsure who is smoking how many hits, you will see it displayed under the player names.
+              <br>
+              There are some special cards...
+              <br>
+              These are the Jack, Queen, and King.
+              <br>
+              When played against ordinary numbers the Special cards always take the points and NEVER smoke!
+              <br>
+              <b>Jack</b> - Play T.A.X.I with the word J.A.C.K. Jack steals points.
+              <br>
+              <b>Queen</b> - If the suits match she smokes, if the don't then the other player smokes. Queen steals
+              points.
+              <br>
+              <b>King</b> - The other player smokes and their small and bit hits are swapped around :O. King steals
+              points.
+              <br>
+              King beats Jack. Queen beats Jack.
+              <br>
+              King vs Queen:
+              <br>
+              If the suits match then queen has small and big hits reversed for the rest of the game.
+              <br>
+              If the suits don't match then king has small and big hits reversed for the rest of the game.
+
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas"></canvas>
-      <div id="unity-fullscreen-button" style="display: none"></div>
+    <div id="unity-container-mob" class="unity-desktop">
+      <canvas id="unity-canvas-mob"></canvas>
+      <div id="unity-fullscreen-button-mob" style="display: none"></div>
     </div>
 
   </div>
@@ -103,21 +107,22 @@
         <div class="col-lg-10 col-md-8 mx-auto">
           <h3 class="fw-light text-light" style="text-align: center;">Rules</h3>
           <p class="lead text-muted">
-          This is a 2 player card game.
-          <br>
-          Each round both players draw a card.
-          <br>
-          Whoever has the <span id="bold">lowest</span> number has to smoke and they have to smoke that many hits!
-          <br>
-          The player who smokes get those hits added onto their score!
-          <br>
-          To make the game more managable we decided to make the maximum hits 5, so if for example you get a 7 then 2 of your 5 hits must be BIG!
-          <br>
-          If you get a 9 then 4 of your 5 hits are BIG!
-          <br>
-          If you are ever unsure who is smoking how many hits, you will see it displayed under the player names.
-          <br>
-          There are some special cards...
+            This is a 2 player card game.
+            <br>
+            Each round both players draw a card.
+            <br>
+            Whoever has the <span id="bold">lowest</span> number has to smoke and they have to smoke that many hits!
+            <br>
+            The player who smokes get those hits added onto their score!
+            <br>
+            To make the game more managable we decided to make the maximum hits 5, so if for example you get a 7 then 2
+            of your 5 hits must be BIG!
+            <br>
+            If you get a 9 then 4 of your 5 hits are BIG!
+            <br>
+            If you are ever unsure who is smoking how many hits, you will see it displayed under the player names.
+            <br>
+            There are some special cards...
           </p>
           <h3 class="fw-light text-light" style="text-align: center;">Special Cards</h3>
           <p class="lead text-muted">
@@ -127,9 +132,11 @@
             <br>
             <span id="bold">Jack</span> - Play T.A.X.I with the word J.A.C.K. Jack steals points.
             <br>
-            <span id="bold">Queen</span> - If the suits match she smokes, if the don't then the other player smokes. Queen steals points.
+            <span id="bold">Queen</span> - If the suits match she smokes, if the don't then the other player smokes.
+            Queen steals points.
             <br>
-            <span id="bold">King</span> - The other player smokes and their small and bit hits are swapped around :O. King steals points.
+            <span id="bold">King</span> - The other player smokes and their small and bit hits are swapped around :O.
+            King steals points.
             <br>
             King beats Jack. Queen beats Jack.
             <br>
@@ -145,15 +152,77 @@
   </div>
 
   <script>
+    function LoadUnity(mob) {
+      var hideFullScreenButton = "";
+      var buildUrl = "";
+      var loaderUrl = buildUrl + "higherorlower.github.io.loader.js";
+      var config = {
+        dataUrl: buildUrl + "higherorlower.github.io.data",
+        frameworkUrl: buildUrl + "higherorlower.github.io.framework.js",
+        codeUrl: buildUrl + "higherorlower.github.io.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "ChickenGroup",
+        productName: "HigherOrLower",
+        productVersion: "0.1",
+      };
+      var container = document.querySelector("#unity-container" + mob);
+      var canvas = document.querySelector("#unity-canvas" + mob);
+      var fullscreenButton = document.querySelector(
+        "#unity-fullscreen-button" + mob
+      );
+
+      var canFullscreen = (function () {
+        for (const key of [
+          "exitFullscreen",
+          "webkitExitFullscreen",
+          "webkitCancelFullScreen",
+          "mozCancelFullScreen",
+          "msExitFullscreen",
+        ]) {
+          if (key in document) {
+            return true;
+          }
+        }
+        return false;
+      })();
+
+      
+
+      const script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          console.log(progress);
+        })
+          .then((unityInstance) => {
+            if (canFullscreen) {
+              if (!hideFullScreenButton) {
+                fullscreenButton.style.display = "";
+              }
+              fullscreenButton.onclick = () => {
+                unityInstance.SetFullscreen(1);
+              };
+            }
+          })
+          .catch((message) => {
+            alert(message);
+          });
+      };
+      document.body.appendChild(script);
+
+    }
+
     if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
       //container.className = "unity-mobile";
       //config.devicePixelRatio = 1;
       $("#desktop").remove();
       $("#mobile").show();
+      LoadUnity("-mob");
     }
     else {
       $("#desktop").show();
       $("#mobile").remove();
+      LoadUnity("");
     }
 
     //alert("If you are on mobile then click on your browsers 3 dots and request desktop site! Then go in fullscreen!");
@@ -164,66 +233,6 @@
       else {
         $(".overlay").show();
       }
-
-      function LoadUnity() {
-        const hideFullScreenButton = "";
-        const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/higherorlower.github.io.loader.js";
-        const config = {
-          dataUrl: buildUrl + "/higherorlower.github.io.data",
-          frameworkUrl: buildUrl + "/higherorlower.github.io.framework.js",
-          codeUrl: buildUrl + "/higherorlower.github.io.wasm",
-          streamingAssetsUrl: "StreamingAssets",
-          companyName: "ChickenGroup",
-          productName: "HigherOrLower",
-          productVersion: "0.1",
-        };
-
-        const container = document.querySelector("#unity-container");
-        const canvas = document.querySelector("#unity-canvas");
-        const fullscreenButton = document.querySelector(
-          "#unity-fullscreen-button"
-        );
-
-        const canFullscreen = (function () {
-          for (const key of [
-            "exitFullscreen",
-            "webkitExitFullscreen",
-            "webkitCancelFullScreen",
-            "mozCancelFullScreen",
-            "msExitFullscreen",
-          ]) {
-            if (key in document) {
-              return true;
-            }
-          }
-          return false;
-        })();
-
-        const script = document.createElement("script");
-        script.src = loaderUrl;
-        script.onload = () => {
-          createUnityInstance(canvas, config, (progress) => {
-          })
-            .then((unityInstance) => {
-              if (canFullscreen) {
-                if (!hideFullScreenButton) {
-                  fullscreenButton.style.display = "";
-                }
-                fullscreenButton.onclick = () => {
-                  unityInstance.SetFullscreen(1);
-                };
-              }
-            })
-            .catch((message) => {
-              alert(message);
-            });
-        };
-        document.body.appendChild(script);
-
-      }
-
-      LoadUnity();
     };
     window.onresize();
   </script>
